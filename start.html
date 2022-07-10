@@ -15,6 +15,76 @@
 
 <body>
 
+	<form action="info.html" method="get">
+		<section>
+<h1>inizia subito il tuo percorso, lasciando qua sotto le informazioni richieste</h1>
+		<div>
+		<label for="name">nome</label>	
+		<input required type="text" id="name" name="name">
+	</div>
+	<div>
+		<label for="surname">cognome</label>
+		<input required type="text" id="surname" name="surname">
+	</div>
+	<div>
+		<label for="email">email</label>
+		<input required type="email" id="email" name="email">
+	</div>
+	<div>
+		<label for="date">data di nascita</label>
+		<input required type="date" id="date" name="date">
+	</div>
+	<div>
+		<label for="phonenumber">numero di telefono</label>
+		<input required type="number" id="phonenumber" name="phonenumber">
+	</div>
+</section>
+<section>
+	<h2>seleziona l'abbonamento che è più ottimale per le tue esigenze</h2>
+	<select name="subscription" id="subscription">
+		<optgroup label="subscriptions plan">
+			<option value="free">piano free</option>
+			<option value="standard">piano standard a 150€ mensili</option>
+			<option value="enterprise">piano enterprise a 250€ mensili </option>
+			<option value="premium">piano premium solo entro fine mese a 300€ mensili</option>
+		</optgroup>
+	</select>
+</section>
+<section>
+	<h3>vogliamo essere generosi, per quello abbiamo inserito dei vantaggi pro che potrai selezionare solo se vorrai</h3>
+<div>
+<ul>
+<li>
+<label for="advantage1">prima lezione gratuita</label>
+<input type="radio" id="advantage1" name="advantage1">
+</li>
+<li>
+<label for="advantage2">prima lezione gratuita e consulenze 1 to 1</label>	
+<input type="radio" id="advantage2" name="advantage2">
+</li>
+</ul>
+</div>
+</section>
+<section>
+	<div>
+<label for="creditcard">numero della carta di credito</label>
+<input required type="number" id="credicard" name="creditcard">
+</div>
+<div>
+	<label for="expirydate">data di scadenza della carta</label>
+	<input required type="number" id="expirydate" name="expirydate">
+</div>
+<div>
+	<label for="CVV">CVV</label>
+	<input required type="number" id="CVV" name="CVV">
+</div>
+<div>
+	<label for="address">indirizzo di fatturazione</label>
+	<input required type="text" id="address" name="address">
+</div>
+</section>
+	</form>
+
 </body>
 
 </html>
