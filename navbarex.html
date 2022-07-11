@@ -6,21 +6,40 @@
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 	<title>navbar</title>
+    <style> 
+    #sub {
+outline: none;
+cursor: pointer;
+;
+;
+padding: 0 10px;
+border: 0;
+border-left: 5px solid #faa53a;
+border-right: 5px solid; color: #faa53a;
+text-indent: -10957px;
+position: absolute;
+top: 5px;
+right: 5px;
+width: 40%;
+;
+padding: 0 10px;
+background: white;
+border: 0;
+float: right;
+box-sizing: border-box;
+}
+
+    </style>
     <body>
         <main>
-            <nav>
-                <ul>
-                    <li><a href="home"></a></li>
-                    <li><a href="link"></a></li>
-                    <li><a href="dropdown"></a></li>
-                    <li><a href="search"></a></li>
-                </ul>
-                <ul>
-                    <li> home</li>
-                    <li>link</li>
-                    <li>dropdown</li>
-                    <li><button type="submit">search</button></li>
-                </ul>
+            <nav class="sub">
+      <span><a href="home.html">Home</a></span>
+       <span><a href="link.html">link</a></span>
+     <span><a href="dropdown.html">dropdown</a></span>
+     <span> <a href="disabled.html">disabled</a> </span>
+     <span><label for="s" class="hide">Cerca sul sito</label>
+     <input type="search" id="s" name="s" placeholder="Cosa cerchi?">
+     <input type="submit" id="sub" name="sub" value="Cerca"></span>
             </nav>
         </main>
     </body>
