@@ -116,23 +116,15 @@ a:hover {
             "footer";
 	}
 
-	main > article {
-		grid-template-columns: 1fr;
-		grid-template-rows: auto 1fr 1fr;
-		grid-template-areas:
-            "text"
-            "img1"
-            "img2";
-	}
-
-	aside {
+main,
+aside,
+footer {
+	padding: 8px 16px;}
+	
+aside {
 		padding-top: 32px;
 		padding-bottom: 32px;
 	}
 
-	.img1,
-	.img2 {
-		max-height: initial;
-		width: 100%;
-	}
+
 }
